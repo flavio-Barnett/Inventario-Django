@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',       # Variable generada automáticamente
         'USER': 'root',            # Variable generada automáticamente
-        'PASSWORD': 'AteWvBLUVrpPaeaTRDeRkDpMfuCVZnlw',    # Variable generada automáticamente
+        'PASSWORD': 'paCWPzYzBbhivgxEpBTkfkrixvLxcyZr',    # Variable generada automáticamente
         'HOST': 'mysql.railway.internal',            # Variable generada automáticamente
         'PORT': '3306',            # Variable generada automáticamente
     }
