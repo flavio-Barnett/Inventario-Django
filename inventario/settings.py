@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-   'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware'
 
 ]
@@ -136,18 +136,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 
-CORS_ALLOWED_METHODS = [
-    'GET',
-    'POST',
-    'PUT',
-    'DELETE',
-    'OPTIONS',
-]
-
-CORS_ALLOW_HEADERS = [
-    'content-type',
-    'x-csrftoken',
-    'authorization',
-    # otros encabezados permitidos
-]
 
